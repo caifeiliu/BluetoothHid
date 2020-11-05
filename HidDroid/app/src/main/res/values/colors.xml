@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#32A239</color>
+    <color name="colorPrimaryDark">#32A239</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorRed">#EC4949</color>
+    <color name="colorButton">#FFB6C1</color>
+    <color name="colorMousePad">#FAEBD7</color>
+    <color name="colorMouseMiddle">#FAEBD7</color>
+    <color name="transparent">#00000000</color>
+</resources>

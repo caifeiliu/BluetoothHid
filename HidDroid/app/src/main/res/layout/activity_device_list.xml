@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/colorMousePad">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:id="@+id/connect_devices_layout">
+
+        <TextView
+            android:id="@+id/title_devices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="false"
+            android:paddingLeft="12dp"
+            android:paddingRight="50dp"
+            android:text="Connect Device"
+            android:textColor="#fff"
+            android:textSize="15dip" />
+    </RelativeLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/connect_list"
+        android:layout_below="@+id/connect_devices_layout">
+
+        <ListView
+            android:id="@+id/connect_devices"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:stackFromBottom="false"
+            android:scrollbarFadeDuration="0"
+            android:fadeScrollbars="false"
+            android:scrollbarThumbVertical="@drawable/list_scroll_bg"
+
+            />
+
+        <TextView
+            android:id="@+id/connect_div"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_8sdp"
+            android:background="@color/colorMousePad"
+            />
+
+        <TextView
+            android:id="@+id/bt_status"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimary"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:id="@+id/new_devices_layout"
+        android:layout_below="@+id/connect_list">
+
+        <TextView
+            android:id="@+id/new_title_devices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="false"
+            android:paddingLeft="12dp"
+            android:paddingRight="50dp"
+            android:text="Select Device"
+            android:textColor="#fff"
+            android:textSize="15dip" />
+
+        <ImageView
+            android:id="@+id/new_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/common_refresh"
+            android:layout_marginRight="@dimen/_8sdp"/>
+    </RelativeLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/new__list"
+        android:layout_below="@+id/new_devices_layout">
+
+        <ListView
+            android:id="@+id/new_devices"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:stackFromBottom="false"
+            android:scrollbarFadeDuration="0"
+            android:fadeScrollbars="false"
+            android:divider="@drawable/list_divider"
+            android:dividerHeight="1dp"
+
+
+            android:scrollbarThumbVertical="@drawable/list_scroll_bg"
+
+            />
+
+        <TextView
+            android:id="@+id/new_scanStateBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorMousePad"
+            />
+
+        <TextView
+            android:id="@+id/new_bt_status"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimary"/>
+    </LinearLayout>
+</RelativeLayout>

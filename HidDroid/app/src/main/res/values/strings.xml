@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DTENHidDroid</string>
+    <string name="title_activity_keyboard_full">activity_keyboard_full</string>
+    <string name="msg_exceptionmsg">很抱歉,程序出现异常,即将退出。</string>
+
+    <item name="tag_pressed" type="id" />
+    <item name="tag_x_pos" type="id" />
+    <item name="tag_y_pos" type="id" />
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="bt_discovery">discovery</string>
+    <string name="scan_mode">Device is not found</string>
+</resources>

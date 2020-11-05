@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabwidget_item_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/tabwidget_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="3dp"
+        android:textSize="12sp"
+        android:textColor="@drawable/selector_tabitem_text" />
+</LinearLayout>
