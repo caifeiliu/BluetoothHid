@@ -10,4 +10,5 @@ git clone git@github.com:caifeiliu/BluetoothHid.git
 
 git add file
 git commit
-git push origin main
+
+git push origin master
